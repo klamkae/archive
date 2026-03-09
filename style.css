@@ -15,6 +15,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 40px 40px;
+  min-height: 120px;
 }
 
 #nav {
@@ -27,6 +28,8 @@ header {
   position: fixed;
   top: 40px;
   left: 40px;
+  z-index: 100;
+  background: #111;
 }
 
 #nav button {
@@ -120,9 +123,9 @@ video {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0;
     padding: 12px 16px;
     gap: 16px;
+    background: transparent;
   }
 
   main {
